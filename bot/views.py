@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from project01.shortcuts import render
+from project01.http import HttpResponse
 
 
 def botView(request):
