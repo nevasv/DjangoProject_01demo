@@ -1,8 +1,7 @@
-from project01.shortcuts import render
-from project01.http import HttpResponse
+from django.shortcuts import render
 
 
-def botView(request):
-    return HttpResponse('Я бот telegram, принимаю webhooks')
+def bot_View(request):
+    return render(request, 'index.html')
 
-# Create your views here.
+
