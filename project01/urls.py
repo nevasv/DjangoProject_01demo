@@ -1,8 +1,8 @@
 from django.contrib import admin
-from django.urls import path, include  # новое добавление
-from bot.views import bot_View
+from django.urls import path, include
+from bot.views import bot
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bot/', bot_View),
+    path('bot/', bot),
 ]

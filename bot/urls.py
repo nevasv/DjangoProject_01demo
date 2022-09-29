@@ -2,6 +2,6 @@
 from project01.urls import path
 from .views import botView
 
-urlpatterns = [
-    path('', botView, name='bot')
-]
+# urlpatterns = [
+#     path('', botView, name='bot')
+# ]
