@@ -4,5 +4,5 @@ from bot.views import bot_View
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', vbot_View),
+    path('', bot_View),
 ]
